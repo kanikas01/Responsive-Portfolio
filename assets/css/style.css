@@ -1,0 +1,233 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    margin-top: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #777777;
+}
+
+.middle {
+    border-top: 2px solid #cccccc;
+    padding-top: 17px;
+    padding-bottom: 112px;
+    height: auto;
+    background-image: url("../images/gravel.png");
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 2rem; 
+    color: #4aaaa5;
+    margin: unset;
+}
+
+h1 {
+    width: 285px;
+    height: 90px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 25px;
+}
+
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif; 
+    color: #ffffff;
+    margin: unset;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: unset;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+p > a {
+    color: #4aaaa5;
+}
+
+.nav-links > a:hover {
+    color: #4aaaa5;
+}
+
+hr {
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 900px;
+    color: #dddddd;
+    border: 1.5px solid;
+}
+
+.about-me > hr {
+    margin-top: 17px;
+}
+
+input, textarea {
+    width: 900px;
+    margin: auto;
+    height: 36px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    font-size: 18px;
+    height: auto;
+    padding-bottom: 35px;
+}
+
+textarea {
+    height: 200px;
+    border-color: #cccccc;
+    resize: none;
+    
+}
+button {
+    width: 117px;
+    height: 42px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+button:hover {
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 3px 20px 0 rgba(0,0,0,0.19);
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    max-width: 960px;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.header-left {
+    width: 50%;
+}
+
+.header-right {
+    width: 50%;
+    float: right;
+}
+
+.nav-links {
+    float: right;
+    margin-top: 41px;
+}
+
+.footer {
+    position: fixed;
+    border-top: 8px solid #4aaaa5;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer > p {
+    margin-top: 30px;
+}
+
+.about-me {
+    margin: auto;
+    margin-top: 25px;
+    background: #ffffff;
+    max-width: 960px;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border: 1px solid #cccccc;
+    line-height: 2em;
+}
+#about-me {
+    margin-top: 7px;
+    padding-bottom: 6px;
+}
+
+#self-pic {
+    float: left;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    background: #ffffff;
+    margin: auto;
+    margin-top: 25px;
+    width: 960px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 1px solid #cccccc;
+}
+
+.portfolio {
+    background: #ffffff;
+    margin: auto;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 960px;
+    height: auto;
+    border: 1px solid #cccccc;
+}
+
+.portfolio-examples {
+    width: 600px;
+}
+
+.portfolio-row {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.portfolio-item {
+    position: relative;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.image-text-overlay {
+    width: 276px;
+    height: 60px;
+    color: #ffffff;
+    font-size: 14pt;
+    font-weight: 400;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 16px;
+}
+
+span {
+    color: #cccccc;
+    font-size: 10pt;
+    font-weight: 100;
+}
