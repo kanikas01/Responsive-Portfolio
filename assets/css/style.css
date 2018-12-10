@@ -231,3 +231,15 @@ span {
     font-size: 10pt;
     font-weight: 100;
 }
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+}
