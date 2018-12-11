@@ -238,6 +238,30 @@ span {
 
 @media screen and (max-width: 980px) {
 
+    hr {
+        width: 590px;
+    }
+
+    .about-me, .contact, .portfolio {
+        max-width: 650px;
+        margin-left: 55px;
+    }
+
+    .header-left {
+        margin-left: 55px;
+    }
+
+    .header-right {
+        margin-right: 55px;
+    }
+
+    input, textarea {
+        width: 590px;
+    }
+
+    .portfolio-item {
+        margin-right: 37px;
+    }
 }
 
 @media screen and (max-width: 768px) {
