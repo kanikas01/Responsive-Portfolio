@@ -265,8 +265,44 @@ span {
 }
 
 @media screen and (max-width: 768px) {
+    hr {
+        /* max-width: 650px;
+        width: 100%; */
+    } 
+
+    .about-me, .contact, .portfolio {
+        max-width: 640px;
+        margin: auto;
+    }
+
+    .portfolio {
+
+    }
+
+    .header-left {
+        margin-left: 16px;
+    }
+
+    .header-right {
+        margin-right: 16px;
+    }
     
-}
+    input, textarea {
+        width: 590px;
+    }
+    
+    .portfolio-examples {
+        margin: auto;
+    }
+
+    .portfolio-row {
+        justify-content: space-between;
+    }
+
+    .portfolio-item {
+        margin-left: -7px;
+    }
+} 
 
 @media screen and (max-width: 640px) {
     
