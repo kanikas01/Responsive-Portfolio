@@ -265,18 +265,11 @@ span {
 }
 
 @media screen and (max-width: 768px) {
-    hr {
-        /* max-width: 650px;
-        width: 100%; */
-    } 
 
     .about-me, .contact, .portfolio {
         max-width: 640px;
         margin: auto;
-    }
-
-    .portfolio {
-
+        margin-top: 25px;
     }
 
     .header-left {
