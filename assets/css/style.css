@@ -266,6 +266,10 @@ span {
 
 @media screen and (max-width: 768px) {
 
+    hr {
+        width: 580px;
+    }
+
     .about-me, .contact, .portfolio {
         max-width: 640px;
         margin: auto;
@@ -281,7 +285,7 @@ span {
     }
     
     input, textarea {
-        width: 590px;
+        width: 580px;
     }
     
     .portfolio-examples {
@@ -298,5 +302,50 @@ span {
 } 
 
 @media screen and (max-width: 640px) {
+    
+    .about-me, .contact, .portfolio {
+        max-width: 536px;
+        border: unset;
+        margin-top: 75px;
+    }
+
+    hr {
+        max-width: 476px;
+        width: 100%;
+    }
+
+    h1 {
+        width: unset;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-left {
+        background-color: #4aaaa5;
+        width: 100%;
+        margin-left: unset;
+    }
+
+    .header-right {
+        background-color: white;
+        margin-right: unset;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .nav-links {
+        margin: auto;
+        margin-top: 20px;
+        float: unset;
+        width: fit-content;
+    }
+    
+    input, textarea {
+        width: 476px;
+    }
+
     
 }
