@@ -307,6 +307,7 @@ span {
         max-width: 536px;
         border: unset;
         margin-top: 75px;
+        padding-right: 30px;
     }
 
     hr {
@@ -344,7 +345,26 @@ span {
     }
     
     input, textarea {
-        width: 476px;
+        width: 100%;
+    }
+
+    .portfolio-examples {
+        margin: unset;
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .portfolio-row {
+        margin: unset;
+        flex-flow: column;
+    }
+
+    .portfolio-item {
+        margin: unset;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        width: 100%;
+
     }
 
     
