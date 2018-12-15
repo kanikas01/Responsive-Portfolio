@@ -276,12 +276,17 @@ span {
         margin-top: 25px;
     }
 
+    .header {
+        max-width: 640px;
+        margin: auto;
+    }
+
     .header-left {
-        margin-left: 16px;
+        margin-left: unset;
     }
 
     .header-right {
-        margin-right: 16px;
+        margin-right: unset;
     }
     
     input, textarea {
